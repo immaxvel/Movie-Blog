@@ -1,0 +1,874 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background: url("../img/bg_body1.png") no-repeat;
+  font-family: "Montserrat", sans-serif;
+  background-size: initial;
+  background-color: #000b15;
+  font-size: 14px;
+}
+
+/*header menu*/
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+.menu__logo img {
+  width: 120px;
+}
+.header__menutop {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+.menu__logo {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+.menu__nav {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.menu__nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+.menu__nav ul > li {
+  list-style-type: none;
+}
+.menu__nav ul > li a {
+  text-decoration: none;
+  display: flex;
+  margin-right: 20px;
+  color: #ffffff;
+  font-size: 17px;
+  transition: 0.5s;
+}
+.menu__nav ul > li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+.menu__auth {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+.menu__auth input {
+  border: none;
+  border-bottom: 1px solid red;
+  padding-left: 5px;
+  height: 30px;
+  color: white;
+  background-color: hsla(209, 100%, 4%, 0);
+}
+.menu__auth input::placeholder {
+  color: #ffffff;
+}
+.menu__auth > input > i {
+  border: none;
+  font-size: 20px;
+  width: 20px;
+}
+.search,
+.show-login-btn {
+  border: none;
+  border-bottom: solid 1px red;
+  background-color: white;
+  background-color: hsla(209, 100%, 4%, 0);
+  text-align: center;
+  padding-top: 5px;
+}
+i {
+  width: 20px;
+  color: red;
+}
+.search i:hover {
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.show-login-btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Watch Now Avengers*/
+.content__discr {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+}
+.content__avenger {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.content__avenger img {
+  width: 334px;
+}
+.add,
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-right: 20px;
+  border-radius: 40px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+.add a,
+.play a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+.add i,
+.play i {
+  color: white;
+  margin-right: 5px;
+}
+.add:active,
+.play:hover {
+  background-color: red;
+}
+
+.action {
+  background-color: #37a3df;
+}
+.adventure {
+  background-color: #df5f37;
+}
+.year,
+.action,
+.adventure {
+  margin: 5px;
+  text-align: center;
+  width: 107px;
+}
+.year {
+  margin-top: 50px;
+  background-color: #f4b01e;
+}
+.content__discr h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 115px;
+}
+.content__discr p {
+  color: #b0b0b0;
+  font-size: 14px;
+  line-height: 23px;
+}
+.popular {
+  display: inline-flex;
+  justify-content: flex-start;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Slider*/
+
+.swiper-container {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 222px;
+  height: 250px;
+  margin-right: 50px;
+}
+.swiper-slide img {
+  width: 222px;
+}
+.details h2 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.details div {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.486);
+  border-radius: 40px;
+  height: 20px;
+}
+.details a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+/*Mission Imp*/
+.content__contentMI {
+  background-color: #0a1521;
+}
+.bgMI {
+  background-image: url(/img/bg_MI.png);
+  height: 557px;
+  width: 100%;
+  background-size: cover;
+  z-index: 5;
+  width: 100%;
+}
+.content__MI {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  margin-right: 120px;
+}
+.content__MI img {
+  height: 500px;
+  margin-right: 100px;
+  margin-top: 28px;
+}
+.content__MIDIS {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.content__MIDIS h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.content__MIDIS p {
+  color: #b0b0b0;
+  margin-top: 5px;
+}
+.yearMI,
+.actionMI,
+.adventureMI {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+.yearMI {
+  background-color: #f4b01e;
+}
+.actionMI {
+  background-color: #37a3df;
+}
+.adventureMI {
+  background-color: #df5f37;
+}
+.addMI,
+.playMI {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-right: 20px;
+  border-radius: 40px;
+  margin-top: 10px;
+  border: 1px solid white;
+  align-items: center;
+  margin-top: 20px;
+}
+.addMI a,
+.playMI a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+.addMI i,
+.playMI i {
+  color: white;
+  margin-right: 5px;
+}
+.addMI:hover,
+.playMI:active {
+  background-color: red;
+}
+
+/*Trends*/
+.content__trends {
+  background-color: #001120c0;
+}
+.trends {
+  display: inline-flex;
+  justify-content: flex-start;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.trends__movies img:hover {
+  animation: 1s spin linear;
+  animation-fill-mode: both;
+}
+@keyframes spin {
+  100% {
+    transform: scale(1.1);
+  }
+}
+.types {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+}
+.btn__type {
+  display: flex;
+  background-color: white;
+  height: 26px;
+  padding: 10px;
+  border-radius: 50px;
+  align-items: center;
+}
+.btn__type:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.trends__movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.movie {
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.movie h3 {
+  margin: 5px;
+  text-align: center;
+}
+.movie a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.movie > p {
+  color: white;
+  text-align: center;
+}
+.movie p span,
+i {
+  color: red;
+}
+.movie h3 a:hover {
+  color: red;
+}
+
+/*Venom*/
+.content__contentVenom {
+  background-color: #0a1521;
+}
+.bgVenom {
+  background-image: url(/img/bg_Venom.png);
+  height: 557px;
+  width: 100%;
+  background-size: cover;
+  z-index: 5;
+  width: 100%;
+}
+.content__Venom {
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+}
+.content__Venom img {
+  height: 500px;
+  margin-right: 100px;
+  margin-top: 28px;
+}
+.content__VenomDIS {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
+.content__VenomDIS h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.content__VenomDIS p {
+  color: #b0b0b0;
+  margin-top: 5px;
+}
+.year_venom,
+.action_venom,
+.scifi_venom {
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+}
+.year_venom {
+  background-color: #f4b01e;
+}
+.action_venom {
+  background-color: #37a3df;
+}
+.scifi_venom {
+  background-color: #df5f37;
+}
+.addVenom,
+.playVenom {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-right: 20px;
+  border-radius: 40px;
+  margin-top: 10px;
+  border: 1px solid white;
+  align-items: center;
+  margin-top: 20px;
+}
+.addVenom a,
+.playVenom a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+.addVenom i,
+.playVenom i {
+  color: white;
+  margin-right: 5px;
+}
+.addVenom:hover,
+.playVenom:active {
+  background-color: red;
+}
+
+/*Hunger Games News*/
+.content__news {
+  background-color: #001120c5;
+}
+.news_one {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.news_one img {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 100px;
+}
+.breaking_news {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(134, 9, 0);
+}
+.news_news h1 {
+  font-size: 36px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+}
+.news_news p {
+  color: #b0b0b0;
+  text-align: justify;
+}
+.news_news a {
+  display: flex;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+}
+.news_news a:hover {
+  color: red;
+}
+.news_block ul {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.news_block img {
+  width: 100px;
+}
+.news_block li {
+  width: 100px;
+  padding-top: 30px;
+  text-align: center;
+}
+.news_block p {
+  color: #b0b0b0;
+  padding-bottom: 10px;
+}
+.news_block a {
+  font-size: 14px;
+  padding-top: 5px;
+  text-decoration: none;
+  color: white;
+}
+.news_block a:hover {
+  color: red;
+}
+.news_btn {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 40px;
+  border: 1px solid white;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.news_btn a {
+  text-decoration: none;
+  color: white;
+}
+.news_btn i {
+  color: #fff;
+}
+.news_btn:hover {
+  background-color: red;
+}
+
+/*Footer*/
+footer {
+  background-color: #000b15;
+  height: 295px;
+  margin-top: 20px;
+}
+.all_rights {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 400px;
+}
+.all_rights ul {
+  margin-bottom: 30px;
+  height: 260px;
+}
+.all_rights > ul img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.all_rights ul p {
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+.all_rights ul li {
+  list-style: none;
+  display: inline-flex;
+  height: 30px;
+}
+.all_rights ul li i {
+  font-size: 30px;
+  color: #b0b0b0;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.all_rights ul li i:hover {
+  transition: 0.5s;
+  color: red;
+}
+.rating-area {
+  overflow: hidden;
+  width: 210px;
+  margin-bottom: 20px;
+}
+.rating-area p:nth-child(1) {
+  color: white;
+}
+.rating-area:not(:checked) > input {
+  display: none;
+}
+.rating-area:not(:checked) > label {
+  float: right;
+  width: 42px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 50px;
+  line-height: 50px;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
+}
+.rating-area:not(:checked) > label:before {
+  content: "★";
+}
+.rating-area > input:checked ~ label {
+  color: #ff0000;
+  text-shadow: 1px 1px #b0b0b0;
+}
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+  color: red;
+}
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 1px #b0b0b0;
+}
+.rate-area > label:active {
+  position: relative;
+}
+.film_types {
+  display: inline-flex;
+  color: white;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 400px;
+  font-size: 16px;
+}
+.menu_types {
+  display: inline-flex;
+  color: white;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 300px;
+  font-size: 16px;
+}
+.film_types p,
+.menu_types p {
+  margin-bottom: 30px;
+}
+.film_types li,
+.menu_types li {
+  list-style: none;
+  padding-bottom: 2px;
+}
+.film_types a,
+.menu_types a {
+  color: white;
+  transition: 0.5s;
+}
+.film_types a:hover,
+.menu_types a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+/*My list page*/
+.mylist {
+  display: inline-flex;
+  justify-content: flex-start;
+  color: #b0b0b0;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.my__list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  align-items: center;
+}
+.trends__movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.movie {
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.movie h3 {
+  margin: 5px;
+  text-align: center;
+}
+.movie a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.movie > p {
+  color: white;
+  text-align: center;
+}
+.movie p span,
+i {
+  color: red;
+}
+.movie h3 a:hover {
+  color: red;
+}
+.my__list img:hover {
+  animation: 1s spin linear;
+  animation-fill-mode: both;
+}
+@keyframes spin {
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/*Blogpage*/
+
+.content__blog {
+  display: flex;
+}
+.blog img {
+  display: flex;
+  margin: 20px auto;
+}
+.blog h3 {
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+.blog span {
+  font-size: 15px;
+  color: white;
+  padding: 20px;
+}
+.blog i {
+  color: white;
+}
+.blog i:active {
+  color: red;
+}
+.blog p {
+  color: white;
+  font-size: 14px;
+  line-height: 23px;
+  padding-top: 10px;
+  text-indent: 20px;
+}
+.share {
+  font-weight: bold;
+  padding: 30px 30px 10px 0;
+}
+.blog ul {
+  display: flex;
+}
+.blog ul li {
+  display: flex;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+.blog ul i {
+  font-size: 24px;
+}
+.blog i:hover {
+  color: red;
+}
+
+/*Movie page*/
+.content__movie {
+  background-color: rgba(14, 17, 42, 0.342);
+  display: flex;
+  justify-content: center;
+}
+.movie_page {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: white;
+}
+.movie_img img {
+  height: 500px;
+  margin-right: 100px;
+}
+
+.movie_disc h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.movie_disc p {
+  color: #b0b0b0;
+  margin-top: 5px;
+  line-height: 23px;
+}
+.movie_disc p span {
+  color: #1465fa;
+  margin-top: 5px;
+}
+
+.addBatman {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  width: 147px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin-right: 20px;
+  border-radius: 40px;
+  margin-top: 10px;
+  border: 1px solid white;
+  align-items: center;
+  margin-top: 20px;
+}
+.addBatman a {
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+}
+.addBatman i {
+  color: white;
+  margin-right: 5px;
+}
+.addBatman:hover {
+  background-color: red;
+}
+/*Movie page. Trailer*/
+.trailer_page {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 50px;
+}
+.trailer_page ul {
+  display: flex;
+  flex-direction: column;
+}
+.trailer_page li {
+  margin: 10px;
+  width: 273px;
+}
+.trailer_page li img {
+  margin-bottom: 5px;
+}
+.trailer_page a {
+  color: white;
+}
+.trailer_page span {
+  display: inline-flex;
+  align-items: flex-start;
+}
+.trailer_page a:hover {
+  color: red;
+}

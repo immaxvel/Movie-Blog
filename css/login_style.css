@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Avengero";
+  src: url("Avengero.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvengeroRegular-zvgl";
+  src: url("AvengeroRegular-zvgl.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.parallax {
+  position: relative;
+  height: 100%;
+}
+.parallax__montain {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.parallax__montain_1 {
+  background: url("../img/m_1.jpg") 50% 50% / cover ;
+}
+.parallax__montain_2 {
+  z-index: 2;
+  background: url("../img/m_2.png") bottom right / 45% no-repeat;
+}
+.parallax__montain_3 {
+  z-index: 1;
+  background: url("../img/m_3.png") bottom left / 100% no-repeat;
+}
+.parallax__fog {
+  background: url("../img/fog_1.png") bottom / 100% no-repeat;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.content_parallax {
+  position: relative;
+}
+.content__body {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.login-form {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(51, 51, 51);
+  text-align: center;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 15px;
+  font-family: Avengero, sans-serif;
+  font-size: 10px;
+  padding-top: 5px;
+}
+.login-form input::placeholder {
+  color: rgb(0, 0, 0);
+}
+.txtb {
+  display: block;
+  box-sizing: border-box;
+  width: 240px;
+  background: #36363628;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: rgb(49, 49, 49);
+  outline: none;
+  margin: 10px 0;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Avengero, sans-serif;
+}
+.login-btn {
+  width: 240px;
+  background: #ff0000;
+  border: 0;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: Avengero, sans-serif;
+}
+.rights {
+  display: block;
+  height: 1800px;
+}

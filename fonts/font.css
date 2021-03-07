@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Avengero';
+  src: url('Avengero.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvengeroRegular-zvgl';
+  src: url('AvengeroRegular-zvgl.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

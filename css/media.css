@@ -1,0 +1,101 @@
+@media all and (max-width:1175px){
+    .container{max-width: 927px;}
+    .all_rights {width: 250px;}
+    .film_types{ width: 250px;}
+    iframe{width: 600px; height: 300px;}
+    .trailer_page iframe {width: 600px; height: 300px;}
+    .trailer_page li{width: 150px;}
+    hr{display: none;}
+    .my_list{flex-wrap: wrap;}
+}
+@media all and (max-width:1175px){
+    .container{max-width: 850px;}
+    .content_trends{height: 900px;}
+    .menu_nav a{font-size: 10px;}
+    .news_btn{display: none;}
+    .menu__auth input{width: 60px;}
+    .blog img {width: 600px;}
+    .trailer_page{justify-content: center;}
+    .trailer_page li{width: 81px;margin-top: 0;}
+    .trailer_page ul{flex-direction: row;}
+    .trailer_page ul{flex-wrap: wrap;}
+    .trailer_page iframe {width: 400px; height: 200px;}
+    .movie_img img{height: auto;margin-right: 30px;}
+    .bgMI{height: auto;}
+    .content__MI img {margin-bottom: 50px;}
+    .content__mylist{background-color: transparent; height: auto;}
+}
+@media all and (max-width:880px){
+    .container{max-width: 700px;}
+    body{margin: 0 5px 0;}
+    .content__discr h1 {font-size: 35px;}
+    .content__avenger img{margin-bottom: 100px;margin-top: 50px;}
+    .content__discr p{width: 250px;}
+    .content__discr{padding-left: 10px;}
+    .news_one img{margin-right: 20px;}
+    .film_types{width: 150px;}
+    .menu_types{width: 150px;}
+    .content__Venom img{height: 440px;margin-right: 32px;margin-top: 30px;}
+    .content__MI img{height: 370px;margin-right: 17px;margin-top: 28px;margin-bottom: 100px;}
+    .news_block ul{display: none;}   
+    .menu__nav ul {position: absolute;top: 70px;left: 5px;}
+    .trailer_page ul {display: none;}
+    .trailer_page iframe{width: 500px;height: 350px;}
+    .content__Venom img{height: 414px;}
+    .news_one{display: block;margin: 0 auto;}
+    .movie_disc{text-align: center;}
+    .news_one img{margin-left: auto;height: 431px;margin-right: auto;}
+    .yearMI{margin-top: 20px;}
+}    
+@media all and (max-width:650px){
+    .Venom_trailer iframe, .MI_trailer iframe, .avenger_trailer iframe{width:400px}
+    .types{display: none;}
+    .content__MIDIS h1{font-size: 30px;}
+    .content__MIDIS {width: auto;}
+    .yearMi{margin-top: 20px;}
+    .film_types{display: none;}
+    .content__avenger img{width: 257px;}
+    .content__discr h1{line-height: 30px;}
+    .content__MIDIS p{width: 300px;} 
+    .content__MIDIS h1{font-size: 25px;} 
+    .content__MI img {height: 270px;} 
+    .content__Venom img{margin-left: 140px;height: 314px;}
+    .year_venom{margin-top: 30px;}
+    .news_one img{margin-left: auto;height: 431px;margin-right: auto;}
+    .news_news h1{text-align: center;}
+    .movie_page{display: block;}
+    .movie_img img{margin-left: auto;margin-right: auto;}
+    .menu__nav ul > li a{margin-right: 6px;}
+    .content__MI{margin-right: auto;margin-left: auto;}
+    .movie_img{display: flex;}
+    .news_news h1{font-size: 30px;} 
+    .content__discr h1{font-size: 30px;}
+    .blog img{width: 350px;} 
+    .blog h3{padding: 10px;font-size: 25px;}
+
+}     
+@media all and (max-width:530px){
+    .trailer_page iframe{width: 340px;}
+    .Venom_trailer iframe, .MI_trailer iframe, .avenger_trailer iframe{width:350px;}
+    .all_rights ul p{width: 190px;}
+    .menu_types{display: none;}
+    .all_rights{display: block;margin: auto;}
+    .menu__nav ul > li a{font-size: 15px;}
+    .content_parallax {position: initial;}
+    .menu__logo img{width: 100px;}
+    .content__MIDIS{margin-top: 300px;}
+    .content__MI img{position: absolute;}
+    .content__VenomDIS{margin-top: 80px;}
+    .content__Venom img{position: absolute; right: 1px;height: 214px;}
+    .news_news h1{font-size: 25px;}
+    .addVenom, .playVenom {margin-top: 12px;} 
+    .content__avenger img{width: 155px;margin-bottom: 280px;}
+    .content__discr h1{font-size: 25px;}
+    .content__discr p {width: 200px;}
+}
+@media all and (max-width:380px){
+    .content__avenger img{width: 134px;margin-bottom: 300px;}
+    .news_one img{height: 230px;}
+    .content__discr{padding-left: 5px;}
+    .content__discr h1{font-size: 23px;}
+}

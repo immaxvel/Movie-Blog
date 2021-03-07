@@ -1,0 +1,64 @@
+.avenger_trailer,
+.MI_trailer,
+.Venom_trailer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #2e3b32ea, #0f1544e3);
+  transition: 1s;
+  z-index: 5;
+}
+.avenger_trailer iframe,
+.MI_trailer iframe,
+.Venom_trailer iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.close,
+.close_MI,
+.close_Venom {
+  width: 40px;
+  background: #ff000000;
+  border: 0;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.close,
+.close_MI,
+.close_Venom {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
+  font-size: 24px;
+  opacity: 0.7;
+}
+.show-login-btn {
+  margin-left: 20px;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: red;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+.show-login-btn span {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.show-login-btn i {
+  color: white;
+}
+.showed {
+  left: 0;
+}
